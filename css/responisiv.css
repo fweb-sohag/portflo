@@ -1,0 +1,46 @@
+/* mobile, tablet device  */
+@media only screen and (min-width:200px) and (max-width:768px) {
+  #navbar .navbar-toggler {
+    color: #fff;
+  }
+
+  #navbar .navbar-nav {
+    background: #f38181;
+    margin-top: 12px;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    padding-left: 0;
+    background: #f38181;
+    text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #banner .banner-img {
+    padding-left: 0;
+  }
+
+  #banner {}
+
+  /* #banner .banner-img #banner .banner-img img {
+    width: 65%;
+
+  } */
+
+  #banner .banner-text {
+    padding-right: 0;
+    padding-top: 20px;
+  }
+
+  #banner .banner-text .banner-p h2 {
+    font-size: 55px;
+  }
+
+  #banner .banner-text h3 {
+    font-size: 63px;
+  }
+}
